@@ -1,3 +1,4 @@
+package edu.gustavo.anatomiadasclasses;
 public class MinhaClasse { 
     //**ANOTAÇÕES.:**
     //A CONVENÇÃO DE NOME DE CLASSE É LETRAS INICIAS DA PARALAVRA EM MAIÚSCULO SEGUIDA DA PRÓXIMA PALAVRA
@@ -44,6 +45,11 @@ public class MinhaClasse {
                 return xxx};
             vide exemplo
         */             
+
+        String NOME_UM = "Gustavo";
+        String NOME_DOIS = "Sutana";
+
+        System.out.println(nomeCompleto(NOME_UM, NOME_DOIS));
     }  
     //método somar: soma dois números inteiros e retorna um número inteiro:
     public static int somar (int número1, int número2) {
