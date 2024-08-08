@@ -1,6 +1,5 @@
-import edu.gustavo.metodos.SmartTV;
-import edu.gustavo.terminaleargumentos.AboutMe;
-import edu.gustavo.*;
+import edu.gustavo.metodos.*;
+import edu.gustavo.terminaleargumentos.*;
 
 public class App {
 
@@ -50,15 +49,22 @@ public class App {
         tvLG.aumentarCanal();
         System.out.println(tvLG.canal);
         tvLG.diminuirCanal();
-        System.out.println(tvLG.canal);
+        System.out.println(tvLG.canal);    
 
-        //instanciando um objeto da Classe AboutMe
+         //instanciando um objeto da Classe AboutMe
         AboutMe gustavoSutanaLima = new AboutMe();
+        
+        String minhasCaracteristicas [] = {"Gustavo", "Sutana", "29", "1.79"};
 
-        gustavoSutanaLima.main("Gustavo","Sutana","29","1.76");
-        
-        
+        System.out.println(minhasCaracteristicas);
+        for (int i = 0; i < minhasCaracteristicas.length; i++) {
+            System.out.println(minhasCaracteristicas[i]);
+        }
+
+        gustavoSutanaLima.main(minhasCaracteristicas);
+
+        AboutMeDois novoUsuário = new AboutMeDois();
+
+        novoUsuário.main();
     }
-
-    
 }

@@ -14,7 +14,8 @@ public class AboutMe {
      * @param args Array de Strings
     
      */
-    public static void main(String[] args) { 
+    public void main(String[] args) { 
+
         //o índice zero do array de String args zero, será o nome;
         String nome = args [0];
         //o índice 1 do array args será o sobrenome;
