@@ -1,4 +1,5 @@
 import edu.gustavo.metodos.SmartTV;
+import edu.gustavo.terminaleargumentos.AboutMe;
 import edu.gustavo.*;
 
 public class App {
@@ -51,7 +52,11 @@ public class App {
         tvLG.diminuirCanal();
         System.out.println(tvLG.canal);
 
+        //instanciando um objeto da Classe AboutMe
+        AboutMe gustavoSutanaLima = new AboutMe();
 
+        gustavoSutanaLima.main("Gustavo","Sutana","29","1.76");
+        
         
     }
 
